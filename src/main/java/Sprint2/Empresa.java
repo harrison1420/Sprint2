@@ -1,5 +1,8 @@
 package Sprint2;
 
+public static void main(String[]args){
+
+
 public class Empresa {
 
           private String nombre;
@@ -45,4 +48,5 @@ public class Empresa {
     public void setNit(int nit) {
         this.nit = nit;
     }
+}
 }
