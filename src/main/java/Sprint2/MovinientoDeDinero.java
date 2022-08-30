@@ -3,12 +3,11 @@ package Sprint2;
 public class MovinientoDeDinero extends Empresa{
 
     private double MontoDelMovimiento;
-    private double CrearMontos;
+    private boolean CrearMontos;
     private String ConceptoDelMovimirnto;
-    private String Encargado:
 
     public MovinientoDeDinero(String nombre, String direccion, double telefono,
-                              int nit, double montoDelMovimiento, double crearMontos,
+                              int nit, double montoDelMovimiento, boolean crearMontos,
                               String conceptoDelMovimirnto, String encargado) {
         super(nombre, direccion, telefono, nit);
         MontoDelMovimiento = montoDelMovimiento;
@@ -32,4 +31,9 @@ public class MovinientoDeDinero extends Empresa{
     public void setConceptoDelMovimirnto(String conceptoDelMovimirnto) {
         ConceptoDelMovimirnto = conceptoDelMovimirnto;
     }
+    public String Encargado(){
+
+        return "Encargado";
+    }
+
 }
